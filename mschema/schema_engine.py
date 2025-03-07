@@ -3,8 +3,8 @@ from typing import Any, Dict, Iterable, List, Optional, Tuple, Union
 from sqlalchemy import create_engine, MetaData, Table, Column, String, Integer, select, text
 from sqlalchemy.engine import Engine
 from llama_index.core import SQLDatabase
-from utils import read_json, write_json, save_raw_text, examples_to_str
-from m_schema import MSchema
+from mschema.utils import read_json, write_json, save_raw_text, examples_to_str
+from mschema.m_schema import MSchema
 
 
 class SchemaEngine(SQLDatabase):

@@ -1,5 +1,5 @@
 import os
-from schema_engine import SchemaEngine
+from mschema.schema_engine import SchemaEngine
 from sqlalchemy import create_engine
 
 # 1.connect to the database engine
